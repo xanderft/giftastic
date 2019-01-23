@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>GifTastic</title>
+    <title>GifTastic(by Alex)</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/styles/main.css" />
     <script src="https://code.jquery.com/jquery.js"></script>
@@ -10,13 +10,21 @@
 </head>
 <body>
     <h1>Animal Gifs</h1>
+	<!-- 
+	This div will hold the buttons used to search for animals. The Javascript code that I used only worked when
+	this had a class and not an id.
+	-->
     <div class = "animalButtons"></div><br>
+	
     <form id="moreAnimals">
         <label for="addAnAnimal">What's your favorite animal?</label>
         <input type="text" id="addAnAnimal"><br>
         <input id="plusAnimal" type="submit" value="add an animal">
     </form>
 
+	<!-- 
+	This div is where the pictures go. I could only get it to work properly with the class and not id.
+	-->
     <div class = "animalsView"></div>        
     
 </body>
