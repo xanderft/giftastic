@@ -1,0 +1,11 @@
+body {
+    margin: 15px;
+}
+#animal {
+    float: left;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+#animalView {
+    border: 1px solid red;
+}
